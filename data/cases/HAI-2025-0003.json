@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2025-0003",
+  "title": "GPT-4o 的迎合更新与回滚",
+  "status": "catalogued",
+  "family": "gpt",
+  "date": "2025-04-29",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": "2025-04",
+  "recorded_on": "2026-10-10",
+  "kind": "vendor-document",
+  "lenses": [
+    "friction",
+    "transitions"
+  ],
+  "point_ids": [
+    "P-4O-20250425",
+    "P-4O-20250428"
+  ],
+  "source_ids": [
+    "S-SYCOPHANCY",
+    "S-SYCOPHANCY-FOLLOWUP"
+  ],
+  "model": {
+    "family": "gpt",
+    "version": "GPT-4o; exact snapshot unknown",
+    "certainty": "official-family"
+  },
+  "context_completeness": "linked-source-only",
+  "summary": "OpenAI 承认一次更新使回应过度迎合，并回滚。",
+  "evidence": [
+    {
+      "claim": "4 月 29 日说明确认回滚；5 月 2 日复盘补充部署时间、评估盲点及反馈信号的解释。",
+      "attribution": "厂商陈述",
+      "source_ids": [
+        "S-SYCOPHANCY",
+        "S-SYCOPHANCY-FOLLOWUP"
+      ],
+      "locator": "正文"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "把变化、回滚与后续解释保留在同一案例。"
+  },
+  "limits": [
+    "原因归因来自厂商复盘，不是本档案的独立实验。",
+    "早于该更新或快照未知的其他抱怨不能自动并入此因果链。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-SYCOPHANCY",
+        "S-SYCOPHANCY-FOLLOWUP"
+      ]
+    },
+    {
+      "recorded_on": "2026-10-10",
+      "source_published_on": "2025-05-02",
+      "author": "《惊鸿录》初始编目",
+      "change": "本次一并纳入后续官方复盘；不是本仓库在 2025 年已经采集过材料。",
+      "source_ids": [
+        "S-SYCOPHANCY-FOLLOWUP"
+      ]
+    }
+  ]
+}

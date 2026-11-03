@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2022-0001",
+  "title": "把对话修正放进研究预览",
+  "status": "catalogued",
+  "family": "gpt",
+  "date": "2022-11-30",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": "2022-11-30",
+  "recorded_on": "2026-10-10",
+  "kind": "vendor-document",
+  "lenses": [
+    "sparks",
+    "transitions"
+  ],
+  "point_ids": [
+    "P-CHATGPT-2022"
+  ],
+  "source_ids": [
+    "S-CHATGPT"
+  ],
+  "model": {
+    "family": "gpt",
+    "version": "GPT-3.5 series",
+    "certainty": "official-family"
+  },
+  "context_completeness": "linked-source-only",
+  "summary": "ChatGPT 的初始发布把追问、纠错和对话式协作放在介绍中心。",
+  "evidence": [
+    {
+      "claim": "发布页说明系统基于 GPT-3.5 系列，并同时列出可能编造、措辞敏感和过度冗长等局限。",
+      "attribution": "厂商陈述",
+      "source_ids": [
+        "S-CHATGPT"
+      ],
+      "locator": "正文"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "作为后来人们期待“协作伙伴”的公开设计语境。"
+  },
+  "limits": [
+    "产品展示不等于实际使用成功率。",
+    "不把 2022 年描述当作当前功能说明。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-CHATGPT"
+      ]
+    }
+  ]
+}

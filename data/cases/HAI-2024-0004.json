@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2024-0004",
+  "title": "一座桥反复闯进聊天",
+  "status": "catalogued",
+  "family": "claude",
+  "date": "2024-05-23",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": "2024-05-23",
+  "recorded_on": "2026-10-10",
+  "kind": "vendor-document",
+  "lenses": [
+    "sparks"
+  ],
+  "point_ids": [
+    "P-GOLDEN-20240523"
+  ],
+  "source_ids": [
+    "S-GOLDEN"
+  ],
+  "model": {
+    "family": "claude",
+    "version": "Claude 3 Sonnet + feature intervention",
+    "certainty": "official-family"
+  },
+  "context_completeness": "linked-source-only",
+  "summary": "Golden Gate Claude 将一个特征干预研究变成了短期公开体验。",
+  "evidence": [
+    {
+      "claim": "Anthropic 表示增强金门大桥相关特征后，无关问题也常被引向这座桥；演示开放约 24 小时。",
+      "attribution": "厂商陈述",
+      "source_ids": [
+        "S-GOLDEN"
+      ],
+      "locator": "正文"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "为有趣输出保留具体实验条件，而不仅留下一个梗。"
+  },
+  "limits": [
+    "这是人工干预的研究变体，不代表普通 Claude 的默认表现。",
+    "自我描述与主题执着不证明主观体验。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-GOLDEN"
+      ]
+    }
+  ]
+}

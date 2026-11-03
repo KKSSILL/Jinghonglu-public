@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Human–AI Archive case v1",
+  "type": "object",
+  "required": ["schema_version", "id", "title", "status", "family", "date", "date_basis", "occurred_on", "recorded_on", "kind", "lenses", "point_ids", "source_ids", "model", "context_completeness", "summary", "evidence", "interpretation", "limits", "consciousness", "welfare", "revisions"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "pattern": "^HAI-[0-9]{4}-[0-9]{4}$"},
+    "title": {"type": "string", "minLength": 1},
+    "status": {"enum": ["draft", "catalogued"]},
+    "family": {"type": "string", "minLength": 1},
+    "date": {"$ref": "#/$defs/date"},
+    "date_basis": {"type": "string", "minLength": 1},
+    "occurred_on": {"anyOf": [{"$ref": "#/$defs/date"}, {"type": "null"}]},
+    "recorded_on": {"type": "string", "format": "date"},
+    "kind": {"enum": ["vendor-document", "research", "user-report"]},
+    "lenses": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["sparks", "friction", "relationships", "transitions", "treatment", "incidents"]}},
+    "point_ids": {"$ref": "#/$defs/refs"},
+    "source_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+    "model": {"type": "object", "required": ["family", "version", "certainty"], "properties": {"family": {"type": "string"}, "version": {"type": ["string", "null"]}, "certainty": {"enum": ["official-family", "research-reported", "user-reported", "unknown"]}}},
+    "context_completeness": {"type": "string", "minLength": 1},
+    "summary": {"type": "string", "minLength": 1},
+    "evidence": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["claim", "attribution", "source_ids", "locator"], "properties": {"claim": {"type": "string", "minLength": 1}, "attribution": {"type": "string", "minLength": 1}, "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}}, "locator": {"type": "string", "minLength": 1}}}},
+    "interpretation": {"type": "object", "required": ["author", "text"], "properties": {"author": {"type": "string", "minLength": 1}, "text": {"type": "string", "minLength": 1}}},
+    "limits": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "consciousness": {"const": "not-assessed"},
+    "welfare": {"const": "not-assessed"},
+    "revisions": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["recorded_on", "author", "change", "source_ids"], "properties": {"recorded_on": {"type": "string", "format": "date"}, "author": {"type": "string", "minLength": 1}, "change": {"type": "string", "minLength": 1}, "source_ids": {"$ref": "#/$defs/refs"}}}}
+  },
+  "$defs": {
+    "date": {"type": "string", "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"},
+    "refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+  }
+}

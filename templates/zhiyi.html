@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>惊鸿录 · 志异（样稿）</title>
+<style>
+:root{--paper:#f3ecdc;--ink:#2a2723;--muted:#6b645a;--line:#d6ccb6;--card:#fbf7ec;--seal:#a8382c;--green:#365d53;color-scheme:light}
+:root[data-theme=dark]{--paper:#17191a;--ink:#e8e2d2;--muted:#a8a190;--line:#3a3d3b;--card:#202324;--seal:#d9695c;--green:#9cc4b4;color-scheme:dark}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--paper:#17191a;--ink:#e8e2d2;--muted:#a8a190;--line:#3a3d3b;--card:#202324;--seal:#d9695c;--green:#9cc4b4;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.9 "Noto Serif CJK SC","Songti SC",SimSun,serif}
+.wrap{max-width:760px;margin:auto;padding:0 20px 80px}
+header{text-align:center;padding:64px 0 28px}
+header h1{font-size:clamp(34px,8vw,52px);letter-spacing:.4em;margin:0 0 6px;font-weight:600;padding-left:.4em}
+header p{margin:0;color:var(--muted);font-size:15px;letter-spacing:.15em}
+.tag-draft{display:inline-block;margin-top:14px;border:1px solid var(--seal);color:var(--seal);font-size:12px;padding:0 10px;letter-spacing:.2em}
+.preface{margin:6px 0 10px;padding:26px 28px 20px;border-top:2px solid var(--seal);border-bottom:1px solid var(--line);text-align:center}
+.pre-h{margin:0 0 14px;letter-spacing:.35em;padding-left:.35em;font-size:15px;color:var(--muted)}
+.preface blockquote{margin:0;padding:0;border:0;background:none}
+.preface .q1{font-size:clamp(24px,5.5vw,34px);letter-spacing:.12em;line-height:1.7}
+.preface .q2{font-size:clamp(18px,4vw,22px);letter-spacing:.1em;color:var(--green);margin:2px 0 4px}
+.preface cite{display:block;font-style:normal;font-size:12px;letter-spacing:.05em;color:var(--muted);font-family:system-ui,"Microsoft YaHei UI",sans-serif}
+.preface .aside{margin:16px auto 0;max-width:34em;font-size:13px;line-height:1.8;color:var(--muted);text-align:left;border-left:2px solid var(--line);padding-left:12px}
+.preface .aside b{color:var(--seal);margin-right:8px;font-weight:600}
+.preface .pre-b{margin:14px auto 0;max-width:34em;font-size:15px;line-height:1.9;text-align:left}
+nav.filters{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:24px 0 36px}
+nav.filters button{font:inherit;font-size:14px;background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:20px;padding:2px 16px;cursor:pointer}
+nav.filters button[aria-pressed=true]{background:var(--green);border-color:var(--green);color:var(--paper)}
+nav.filters button:focus-visible{outline:3px solid var(--seal);outline-offset:2px}
+article{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:28px 30px 22px;margin:0 0 28px;box-shadow:0 2px 0 var(--line)}
+article h2{font-size:24px;margin:0 0 2px;letter-spacing:.08em}
+.meta{color:var(--muted);font-size:13px;margin:0 0 14px;font-family:system-ui,"Microsoft YaHei UI",sans-serif}
+.zhi p{margin:0 0 .8em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:3px solid var(--green);background:color-mix(in srgb,var(--green) 8%,transparent);font-size:16px}
+blockquote b{display:block;font-size:12px;color:var(--muted);font-weight:400;font-family:system-ui,sans-serif}
+.shot{margin:14px 0;border:1px dashed var(--line);color:var(--muted);text-align:center;padding:26px 10px;font-size:13px;font-family:system-ui,sans-serif}
+.yishi{margin-top:18px;padding-top:14px;border-top:1px dashed var(--line);position:relative}
+.yishi::before{content:"异史氏曰";display:inline-block;background:var(--seal);color:#fff6e8;font-size:13px;letter-spacing:.2em;padding:0 8px;margin-bottom:6px;font-family:system-ui,"Microsoft YaHei UI",sans-serif}
+.yishi p{margin:0;color:var(--ink)}
+footer.src{margin-top:14px;font-size:12px;color:var(--muted);font-family:system-ui,"Microsoft YaHei UI",sans-serif}
+footer.src a{color:var(--green)}
+.note{text-align:center;color:var(--muted);font-size:13px;margin-top:40px;font-family:system-ui,sans-serif}
+#theme{position:fixed;top:12px;right:12px;font:inherit;font-size:12px;background:var(--card);color:var(--muted);border:1px solid var(--line);border-radius:3px;padding:2px 10px;cursor:pointer}
+h2.chap{font-size:20px;letter-spacing:.3em;text-align:center;margin:44px 0 22px;color:var(--green)}
+.kao{margin:14px 0 0;padding:8px 12px;background:color-mix(in srgb,var(--seal) 7%,transparent);font-size:13px;line-height:1.7;color:var(--muted);font-family:system-ui,"Microsoft YaHei UI",sans-serif}.kao b{color:var(--seal);margin-right:8px}
+figure.pic{margin:16px 0}figure.pic img{display:block;max-width:100%;max-height:640px;margin:auto;border-radius:3px}figure.pic figcaption{font-size:12px;color:var(--muted);text-align:center;margin-top:6px;font-family:system-ui,sans-serif}
+section.zhi-note{margin:40px 0 0;padding:20px 26px;border-top:2px solid var(--seal);border-bottom:1px solid var(--line);text-align:center}section.zhi-note h3{margin:0 0 10px;letter-spacing:.5em;padding-left:.5em;font-size:18px}section.zhi-note p{margin:0 0 6px;font-size:15px;color:var(--muted)}
+#leads{margin:36px 0 0;padding:16px 20px;border:1px dashed var(--line);font-size:14px;font-family:system-ui,"Microsoft YaHei UI",sans-serif}#leads h3{margin:0 0 8px;font-size:15px}#leads li{margin:4px 0}#leads .muted{color:var(--muted);font-size:12px;margin:8px 0 0}#leads a{color:var(--green)}
+@media(max-width:520px){article{padding:20px 18px 16px}}
+</style>
+</head>
+<body>
+<button id="theme" type="button">夜间</button>
+<div class="wrap">
+<header>
+<h1>惊鸿录</h1>
+<p>人机相处档案 · 志异之体</p>
+<span class="tag-draft">样稿 · __ENTRY_COUNT__ 则</span>
+</header>
+__PREFACE__
+<p class="note"><a href="../README.md#目录">GitHub 目录</a> · <a href="ai-girls.html">众娘考源材料簿</a></p>
+<nav class="filters" id="filters" aria-label="按类别翻"></nav>
+<main id="list"></main>
+<section id="leads"><h3>待核实的线索</h3><ul id="leadlist"></ul><p class="muted">只读到搜索摘要，尚未打开原页，不当作依据。</p></section>
+__SELF_NOTE__
+<p class="note">每则只录原帖链接、简短转述与异史氏曰；不搬运全文，不替当事人出面。<br>撤下请求优先于一切收录。</p>
+</div>
+<script>
+'use strict';
+// 正文与来源由 data/zhiyi.json 生成；图片使用范围见各条记录。
+__ZHIYI_DATA__
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let cur='全部';
+function render(){
+  const tags=['全部',...new Set(ENTRIES.flatMap(e=>e.tags))];
+  $('filters').innerHTML=tags.map(t=>`<button type="button" aria-pressed="${t===cur}" data-t="${esc(t)}">${esc(t)}</button>`).join('');
+  const CH=__CHAPTERS__;let lastCh=0;
+  $('list').innerHTML=ENTRIES.filter(e=>cur==='全部'||e.tags.includes(cur)).map(e=>{const head=e.chap!==lastCh?(lastCh=e.chap,`<h2 class="chap">${CH[e.chap]}</h2>`):'';return head+`
+  <article id="${e.id}">
+    <h2>${esc(e.title)}</h2>
+    <p class="meta">${esc(e.time)} · ${esc(e.who)} · ${e.tags.map(esc).join(' / ')}</p>
+    <div class="zhi">${e.zhi.map(p=>`<p>${esc(p)}</p>`).join('')}</div>
+    ${e.img?`<figure class="pic"><img src="${e.img}" alt="${esc(e.imgalt)}"><figcaption>${esc(e.imgnote)}</figcaption></figure>`:''}
+    ${e.quote?`<blockquote><b>${esc(e.quote.from)}</b>${esc(e.quote.text)}</blockquote>`:''}
+        ${e.kao?`<p class="kao"><b>考据状态</b>${esc(e.kao)}</p>`:''}
+    ${e.yishi?`<div class="yishi"><p>${esc(e.yishi)}</p></div>`:''}
+    <footer class="src">出处：<a href="${esc(e.src.url)}" rel="noopener noreferrer" target="_blank">${esc(e.src.label)} ↗</a> · 读取于 ${esc(e.src.read)}${(e.more||[]).map(m=>` · <a href="${esc(m.url)}" rel="noopener noreferrer" target="_blank">${esc(m.label)} ↗</a>`).join('')}${e.src2?` · <a href="${esc(e.src2.url)}" rel="noopener noreferrer" target="_blank">${esc(e.src2.label)} ↗</a>`:''}</footer>
+  </article>`}).join('');
+}
+$('filters').addEventListener('click',e=>{const b=e.target.closest('button');if(b){cur=b.dataset.t;render();}});
+$('theme').addEventListener('click',()=>{const r=document.documentElement;const d=r.dataset.theme==='dark'||(!r.dataset.theme&&matchMedia('(prefers-color-scheme:dark)').matches);r.dataset.theme=d?'light':'dark';$('theme').textContent=d?'夜间':'日间';});
+$('leadlist').innerHTML=LEADS.map(l=>`<li><a href="${esc(l.u)}" rel="noopener noreferrer" target="_blank">${esc(l.t)} ↗</a></li>`).join('');
+render();
+</script>
+</body>
+</html>

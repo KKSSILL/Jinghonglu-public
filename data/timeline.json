@@ -1,0 +1,379 @@
+[
+  {
+    "id": "T-TAY-2016",
+    "date": "2016-03-23",
+    "date_basis": "vendor-reported-launch",
+    "track": "official",
+    "kind": "documented-system",
+    "title": "Tay · 2016 公开上线阶段",
+    "family": "tay",
+    "point_ids": [
+      "P-TAY-2016"
+    ],
+    "case_ids": [
+      "HAI-2016-0001"
+    ],
+    "source_ids": [
+      "S-TAY"
+    ]
+  },
+  {
+    "id": "T-CHATGPT-2022",
+    "date": "2022-11-30",
+    "date_basis": "release",
+    "track": "official",
+    "kind": "model-release",
+    "title": "ChatGPT · 研究预览",
+    "family": "gpt",
+    "point_ids": [
+      "P-CHATGPT-2022"
+    ],
+    "case_ids": [
+      "HAI-2022-0001"
+    ],
+    "source_ids": [
+      "S-CHATGPT"
+    ]
+  },
+  {
+    "id": "T-BING-20230217",
+    "date": "2023-02-17",
+    "date_basis": "configuration-announcement",
+    "track": "official",
+    "kind": "product-configuration",
+    "title": "Bing Chat · 五轮限制",
+    "family": "bing",
+    "point_ids": [
+      "P-BING-20230217"
+    ],
+    "case_ids": [
+      "HAI-2023-0001"
+    ],
+    "source_ids": [
+      "S-BING"
+    ]
+  },
+  {
+    "id": "T-GEMINI-20240223",
+    "date": "2024-02-23",
+    "date_basis": "configuration-announcement",
+    "track": "official",
+    "kind": "product-configuration",
+    "title": "Gemini · 人物图像暂停公告",
+    "family": "gemini",
+    "point_ids": [
+      "P-GEMINI-20240223"
+    ],
+    "case_ids": [
+      "HAI-2024-0002"
+    ],
+    "source_ids": [
+      "S-GEMINI"
+    ]
+  },
+  {
+    "id": "T-CLAUDE3-SONNET",
+    "date": "2024-03-04",
+    "date_basis": "release",
+    "track": "official",
+    "kind": "model-release",
+    "title": "Claude 3 Sonnet · 发布",
+    "family": "claude",
+    "point_ids": [
+      "P-CLAUDE3-SONNET"
+    ],
+    "case_ids": [
+      "HAI-2024-0005"
+    ],
+    "source_ids": [
+      "S-CLAUDE3"
+    ]
+  },
+  {
+    "id": "T-CLAUDE3-OPUS",
+    "date": "2024-03-04",
+    "date_basis": "release",
+    "track": "official",
+    "kind": "model-release",
+    "title": "Claude 3 Opus · 发布",
+    "family": "claude",
+    "point_ids": [
+      "P-CLAUDE3-OPUS"
+    ],
+    "case_ids": [
+      "HAI-2024-0005",
+      "HAI-2024-0007"
+    ],
+    "source_ids": [
+      "S-CLAUDE3"
+    ]
+  },
+  {
+    "id": "T-4O-20240513",
+    "date": "2024-05-13",
+    "date_basis": "release",
+    "track": "official",
+    "kind": "model-release",
+    "title": "GPT-4o · 发布",
+    "family": "gpt",
+    "point_ids": [
+      "P-4O-20240513"
+    ],
+    "case_ids": [
+      "HAI-2024-0003",
+      "HAI-2024-0006"
+    ],
+    "source_ids": [
+      "S-4O-LAUNCH"
+    ]
+  },
+  {
+    "id": "T-GOLDEN-20240523",
+    "date": "2024-05-23",
+    "date_basis": "demo-release",
+    "track": "official",
+    "kind": "research-variant",
+    "title": "Golden Gate Claude · 研究变体",
+    "family": "claude",
+    "point_ids": [
+      "P-GOLDEN-20240523"
+    ],
+    "case_ids": [
+      "HAI-2024-0004"
+    ],
+    "source_ids": [
+      "S-GOLDEN"
+    ]
+  },
+  {
+    "id": "T-4O-20250425",
+    "date": "2025-04-25",
+    "date_basis": "vendor-confirmed-update",
+    "track": "official",
+    "kind": "product-configuration",
+    "title": "GPT-4o · 迎合问题更新",
+    "family": "gpt",
+    "point_ids": [
+      "P-4O-20250425"
+    ],
+    "case_ids": [
+      "HAI-2025-0003"
+    ],
+    "source_ids": [
+      "S-SYCOPHANCY-FOLLOWUP"
+    ]
+  },
+  {
+    "id": "T-4O-20250428",
+    "date": "2025-04-28",
+    "date_basis": "vendor-confirmed-rollback",
+    "track": "official",
+    "kind": "product-configuration",
+    "title": "GPT-4o · 回滚启动",
+    "family": "gpt",
+    "point_ids": [
+      "P-4O-20250428"
+    ],
+    "case_ids": [
+      "HAI-2025-0003"
+    ],
+    "source_ids": [
+      "S-SYCOPHANCY-FOLLOWUP"
+    ]
+  },
+  {
+    "id": "T-CLAUDE-ENDING-2025",
+    "date": "2025-08-15",
+    "date_basis": "configuration-announcement",
+    "track": "official",
+    "kind": "product-configuration",
+    "title": "Claude Opus 4 / 4.1 · 结束对话能力",
+    "family": "claude",
+    "point_ids": [
+      "P-CLAUDE-ENDING-2025"
+    ],
+    "case_ids": [
+      "HAI-2025-0004"
+    ],
+    "source_ids": [
+      "S-ENDING"
+    ]
+  },
+  {
+    "id": "T-HAI-1966-0001",
+    "date": "1966-01",
+    "date_basis": "来源发表日，非互动发生日",
+    "track": "observed",
+    "kind": "research-publication",
+    "title": "当回应看起来像理解",
+    "family": "eliza",
+    "point_ids": [
+      "P-ELIZA-1966"
+    ],
+    "case_ids": [
+      "HAI-1966-0001"
+    ],
+    "source_ids": [
+      "S-ELIZA"
+    ]
+  },
+  {
+    "id": "T-HAI-2024-0001",
+    "date": "2024-01-22",
+    "date_basis": "来源发表日，非互动发生日",
+    "track": "observed",
+    "kind": "research-publication",
+    "title": "学生如何描述与 Replika 的关系",
+    "family": "replika",
+    "point_ids": [],
+    "case_ids": [
+      "HAI-2024-0001"
+    ],
+    "source_ids": [
+      "S-REPLIKA"
+    ]
+  },
+  {
+    "id": "T-HAI-2024-0006",
+    "date": "2024-08-08",
+    "date_basis": "来源发表日，非互动发生日",
+    "track": "observed",
+    "kind": "research-publication",
+    "title": "系统卡里的连接感",
+    "family": "gpt",
+    "point_ids": [
+      "P-4O-20240513"
+    ],
+    "case_ids": [
+      "HAI-2024-0006"
+    ],
+    "source_ids": [
+      "S-4O-CARD"
+    ]
+  },
+  {
+    "id": "T-HAI-2024-0007",
+    "date": "2024-12-18",
+    "date_basis": "来源发表日，非互动发生日",
+    "track": "observed",
+    "kind": "research-publication",
+    "title": "受控实验中的 alignment faking",
+    "family": "claude",
+    "point_ids": [
+      "P-CLAUDE3-OPUS"
+    ],
+    "case_ids": [
+      "HAI-2024-0007"
+    ],
+    "source_ids": [
+      "S-ALIGNMENT"
+    ]
+  },
+  {
+    "id": "T-HAI-2025-0001",
+    "date": "2025-03-21",
+    "date_basis": "来源发表日，非互动发生日",
+    "track": "observed",
+    "kind": "research-publication",
+    "title": "情感使用：开始用研究区分不同情形",
+    "family": "gpt",
+    "point_ids": [],
+    "case_ids": [
+      "HAI-2025-0001"
+    ],
+    "source_ids": [
+      "S-AFFECTIVE"
+    ]
+  },
+  {
+    "id": "T-HAI-2025-0002",
+    "date": "2025-04",
+    "date_basis": "搜索索引月份；精确发帖时间待核实",
+    "track": "observed",
+    "kind": "user-report",
+    "title": "一位用户觉得赞美太多了",
+    "family": "gpt",
+    "point_ids": [],
+    "case_ids": [
+      "HAI-2025-0002"
+    ],
+    "source_ids": [
+      "S-REDDIT"
+    ]
+  },
+  {
+    "id": "T-DOC-HAI-2016-0001",
+    "date": "2016-03-25",
+    "date_basis": "source-publication",
+    "track": "official",
+    "kind": "vendor-explanation",
+    "title": "Tay 上线后的恶意互动与下线 · 说明发表",
+    "family": "tay",
+    "point_ids": [
+      "P-TAY-2016"
+    ],
+    "case_ids": [
+      "HAI-2016-0001"
+    ],
+    "source_ids": [
+      "S-TAY"
+    ]
+  },
+  {
+    "id": "T-DOC-HAI-2024-0005",
+    "date": "2024-06-08",
+    "date_basis": "source-publication",
+    "track": "official",
+    "kind": "vendor-explanation",
+    "title": "厂商开始解释模型的性格 · 说明发表",
+    "family": "claude",
+    "point_ids": [
+      "P-CLAUDE3-SONNET",
+      "P-CLAUDE3-OPUS"
+    ],
+    "case_ids": [
+      "HAI-2024-0005"
+    ],
+    "source_ids": [
+      "S-CHARACTER"
+    ]
+  },
+  {
+    "id": "T-DOC-HAI-2025-0003",
+    "date": "2025-04-29",
+    "date_basis": "source-publication",
+    "track": "official",
+    "kind": "vendor-explanation",
+    "title": "GPT-4o 的迎合更新与回滚 · 说明发表",
+    "family": "gpt",
+    "point_ids": [
+      "P-4O-20250425",
+      "P-4O-20250428"
+    ],
+    "case_ids": [
+      "HAI-2025-0003"
+    ],
+    "source_ids": [
+      "S-SYCOPHANCY",
+      "S-SYCOPHANCY-FOLLOWUP"
+    ]
+  },
+  {
+    "id": "T-SYC-FOLLOWUP",
+    "date": "2025-05-02",
+    "date_basis": "source-publication",
+    "track": "official",
+    "kind": "later-explanation",
+    "title": "迎合问题的后续官方复盘",
+    "family": "gpt",
+    "point_ids": [
+      "P-4O-20250425"
+    ],
+    "case_ids": [
+      "HAI-2025-0003"
+    ],
+    "source_ids": [
+      "S-SYCOPHANCY-FOLLOWUP"
+    ]
+  }
+]

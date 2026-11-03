@@ -1,0 +1,198 @@
+[
+  {
+    "id": "P-ELIZA-1966",
+    "family": "eliza",
+    "title": "ELIZA · 1966 论文中的系统",
+    "anchor_date": "1966-01",
+    "anchor_kind": "paper-publication",
+    "kind": "documented-system",
+    "source_ids": [
+      "S-ELIZA"
+    ],
+    "model_version": null,
+    "certainty": "publicly-documented",
+    "scope_note": "论文描述的程序与脚本，不将现代同名复刻混为一体。",
+    "related_points": []
+  },
+  {
+    "id": "P-TAY-2016",
+    "family": "tay",
+    "title": "Tay · 2016 公开上线阶段",
+    "anchor_date": "2016-03-23",
+    "anchor_kind": "vendor-reported-launch",
+    "kind": "documented-system",
+    "source_ids": [
+      "S-TAY"
+    ],
+    "model_version": null,
+    "certainty": "publicly-documented",
+    "scope_note": "上线日由 3 月 25 日说明回溯；没有可核验权重版本。",
+    "related_points": []
+  },
+  {
+    "id": "P-CHATGPT-2022",
+    "family": "gpt",
+    "title": "ChatGPT · 研究预览",
+    "anchor_date": "2022-11-30",
+    "anchor_kind": "release",
+    "kind": "model-release",
+    "source_ids": [
+      "S-CHATGPT"
+    ],
+    "model_version": "GPT-3.5 series",
+    "certainty": "publicly-documented",
+    "scope_note": "发布页只锚定系列和预览阶段，不补造快照 ID。",
+    "related_points": []
+  },
+  {
+    "id": "P-BING-20230217",
+    "family": "bing",
+    "title": "Bing Chat · 五轮限制",
+    "anchor_date": "2023-02-17",
+    "anchor_kind": "configuration-announcement",
+    "kind": "product-configuration",
+    "source_ids": [
+      "S-BING"
+    ],
+    "model_version": null,
+    "certainty": "publicly-documented",
+    "scope_note": "服务配置阶段；不声称底层模型在当天更换。",
+    "related_points": []
+  },
+  {
+    "id": "P-GEMINI-20240223",
+    "family": "gemini",
+    "title": "Gemini · 人物图像暂停公告",
+    "anchor_date": "2024-02-23",
+    "anchor_kind": "configuration-announcement",
+    "kind": "product-configuration",
+    "source_ids": [
+      "S-GEMINI"
+    ],
+    "model_version": null,
+    "certainty": "publicly-documented",
+    "scope_note": "锚点是公告日；精确暂停时刻未在此核实。",
+    "related_points": []
+  },
+  {
+    "id": "P-CLAUDE3-SONNET",
+    "family": "claude",
+    "title": "Claude 3 Sonnet · 发布",
+    "anchor_date": "2024-03-04",
+    "anchor_kind": "release",
+    "kind": "model-release",
+    "source_ids": [
+      "S-CLAUDE3"
+    ],
+    "model_version": "Claude 3 Sonnet",
+    "certainty": "publicly-documented",
+    "scope_note": "",
+    "related_points": []
+  },
+  {
+    "id": "P-CLAUDE3-OPUS",
+    "family": "claude",
+    "title": "Claude 3 Opus · 发布",
+    "anchor_date": "2024-03-04",
+    "anchor_kind": "release",
+    "kind": "model-release",
+    "source_ids": [
+      "S-CLAUDE3"
+    ],
+    "model_version": "Claude 3 Opus",
+    "certainty": "publicly-documented",
+    "scope_note": "",
+    "related_points": []
+  },
+  {
+    "id": "P-4O-20240513",
+    "family": "gpt",
+    "title": "GPT-4o · 发布",
+    "anchor_date": "2024-05-13",
+    "anchor_kind": "release",
+    "kind": "model-release",
+    "source_ids": [
+      "S-4O-LAUNCH"
+    ],
+    "model_version": "GPT-4o",
+    "certainty": "publicly-documented",
+    "scope_note": "发布演示与后续语音开放不是同一部署时刻。",
+    "related_points": []
+  },
+  {
+    "id": "P-GOLDEN-20240523",
+    "family": "claude",
+    "title": "Golden Gate Claude · 研究变体",
+    "anchor_date": "2024-05-23",
+    "anchor_kind": "demo-release",
+    "kind": "research-variant",
+    "source_ids": [
+      "S-GOLDEN"
+    ],
+    "model_version": "Claude 3 Sonnet + feature intervention",
+    "certainty": "publicly-documented",
+    "scope_note": "",
+    "related_points": [
+      {
+        "target": "P-CLAUDE3-SONNET",
+        "relation": "research-variant-of",
+        "source_ids": [
+          "S-GOLDEN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P-4O-20250425",
+    "family": "gpt",
+    "title": "GPT-4o · 迎合问题更新",
+    "anchor_date": "2025-04-25",
+    "anchor_kind": "vendor-confirmed-update",
+    "kind": "product-configuration",
+    "source_ids": [
+      "S-SYCOPHANCY-FOLLOWUP"
+    ],
+    "model_version": "GPT-4o; exact snapshot unknown",
+    "certainty": "publicly-documented",
+    "scope_note": "官方复盘称 4 月 24 日开始部署、25 日完成。模型 ID 未公开确认。",
+    "related_points": []
+  },
+  {
+    "id": "P-4O-20250428",
+    "family": "gpt",
+    "title": "GPT-4o · 回滚启动",
+    "anchor_date": "2025-04-28",
+    "anchor_kind": "vendor-confirmed-rollback",
+    "kind": "product-configuration",
+    "source_ids": [
+      "S-SYCOPHANCY-FOLLOWUP"
+    ],
+    "model_version": "GPT-4o; restored snapshot unknown",
+    "certainty": "publicly-documented",
+    "scope_note": "回滚至此前版本；这是产品阶段记录，不是又一个新训练模型。",
+    "related_points": [
+      {
+        "target": "P-4O-20250425",
+        "relation": "rollback-of",
+        "source_ids": [
+          "S-SYCOPHANCY-FOLLOWUP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P-CLAUDE-ENDING-2025",
+    "family": "claude",
+    "title": "Claude Opus 4 / 4.1 · 结束对话能力",
+    "anchor_date": "2025-08-15",
+    "anchor_kind": "configuration-announcement",
+    "kind": "product-configuration",
+    "source_ids": [
+      "S-ENDING"
+    ],
+    "model_version": "Claude Opus 4 / 4.1",
+    "certainty": "publicly-documented",
+    "scope_note": "按共同产品功能记一个阶段；不合并两种模型的技术身份。",
+    "related_points": []
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "HAI-1966-0001",
+  "title": "当回应看起来像理解",
+  "status": "catalogued",
+  "family": "eliza",
+  "date": "1966-01",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": null,
+  "recorded_on": "2026-10-10",
+  "kind": "research",
+  "lenses": [
+    "sparks",
+    "relationships"
+  ],
+  "point_ids": [
+    "P-ELIZA-1966"
+  ],
+  "source_ids": [
+    "S-ELIZA"
+  ],
+  "model": {
+    "family": "eliza",
+    "version": "1966 paper implementation",
+    "certainty": "research-reported"
+  },
+  "context_completeness": "linked-source-only",
+  "summary": "ELIZA 论文提供了一段早期人机对话的技术与表达参照。",
+  "evidence": [
+    {
+      "claim": "论文描述以关键词、分解和重组规则生成回应，并提供对话示例。",
+      "attribution": "研究作者报告",
+      "source_ids": [
+        "S-ELIZA"
+      ],
+      "locator": "Communications of the ACM 9(1), pp.36–45；摘要与对话示例"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "留存交互的外观与生成机制之间的距离。"
+  },
+  "limits": [
+    "不是现代大语言模型的同等能力证明。",
+    "不据此推断使用者的长期依恋或系统意识。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-ELIZA"
+      ]
+    }
+  ]
+}

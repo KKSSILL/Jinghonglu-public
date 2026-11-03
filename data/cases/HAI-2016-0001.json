@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2016-0001",
+  "title": "Tay 上线后的恶意互动与下线",
+  "status": "catalogued",
+  "family": "tay",
+  "date": "2016-03-25",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": "2016-03",
+  "recorded_on": "2026-10-10",
+  "kind": "vendor-document",
+  "lenses": [
+    "treatment",
+    "incidents",
+    "friction"
+  ],
+  "point_ids": [
+    "P-TAY-2016"
+  ],
+  "source_ids": [
+    "S-TAY"
+  ],
+  "model": {
+    "family": "tay",
+    "version": null,
+    "certainty": "official-family"
+  },
+  "context_completeness": "linked-source-only",
+  "summary": "微软在公开说明中承认 Tay 产生冒犯性内容并已下线。",
+  "evidence": [
+    {
+      "claim": "微软称上线最初 24 小时中有一部分人协同利用漏洞，并为未预见此类攻击承担责任。",
+      "attribution": "厂商陈述",
+      "source_ids": [
+        "S-TAY"
+      ],
+      "locator": "正文"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "记录人的互动如何进入一个系统的失败现场。"
+  },
+  "limits": [
+    "攻击方式和因果链在此属于厂商解释，未独立重建。",
+    "不能描述成系统自行觉醒或自主选择仇恨。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-TAY"
+      ]
+    }
+  ]
+}

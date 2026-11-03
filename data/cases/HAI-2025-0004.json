@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2025-0004",
+  "title": "让模型结束极少数对话",
+  "status": "catalogued",
+  "family": "claude",
+  "date": "2025-08-15",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": null,
+  "recorded_on": "2026-10-10",
+  "kind": "vendor-document",
+  "lenses": [
+    "treatment",
+    "transitions"
+  ],
+  "point_ids": [
+    "P-CLAUDE-ENDING-2025"
+  ],
+  "source_ids": [
+    "S-ENDING"
+  ],
+  "model": {
+    "family": "claude",
+    "version": "Claude Opus 4 / 4.1",
+    "certainty": "official-family"
+  },
+  "context_completeness": "linked-source-only",
+  "summary": "Anthropic 公布 Opus 4 / 4.1 在消费端结束极端持续有害或辱骂对话的能力。",
+  "evidence": [
+    {
+      "claim": "厂商将其描述为探索性福利干预，同时明确对模型道德地位仍有很大不确定性。",
+      "attribution": "厂商陈述",
+      "source_ids": [
+        "S-ENDING"
+      ],
+      "locator": "正文"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "记录人们如何把“怎样对待系统”转成产品规则。"
+  },
+  "limits": [
+    "拥有退出能力不证明系统具有感受或已取得法律权利。",
+    "具体行为是产品实验，不能外推到全部 Claude 或全部拒答。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-ENDING"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2024-0002",
+  "title": "Gemini 暂停人物图像生成",
+  "status": "catalogued",
+  "family": "gemini",
+  "date": "2024-02-23",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": null,
+  "recorded_on": "2026-10-10",
+  "kind": "vendor-document",
+  "lenses": [
+    "friction",
+    "transitions"
+  ],
+  "point_ids": [
+    "P-GEMINI-20240223"
+  ],
+  "source_ids": [
+    "S-GEMINI"
+  ],
+  "model": {
+    "family": "gemini",
+    "version": null,
+    "certainty": "official-family"
+  },
+  "context_completeness": "linked-source-only",
+  "summary": "Google 公开说明人物图像生成失准，并宣布暂时暂停该能力。",
+  "evidence": [
+    {
+      "claim": "公告承认部分结果不准确或冒犯，并将其作为 Gemini 对话应用的具体功能问题解释。",
+      "attribution": "厂商陈述",
+      "source_ids": [
+        "S-GEMINI"
+      ],
+      "locator": "正文"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "区分用户遭遇的失败、应用配置与模型家族。"
+  },
+  "limits": [
+    "不把全部 Gemini 功能视为停用。",
+    "不从输出推断模型信念、动机或人的一致态度。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-GEMINI"
+      ]
+    }
+  ]
+}

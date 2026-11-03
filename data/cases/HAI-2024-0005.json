@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2024-0005",
+  "title": "厂商开始解释模型的性格",
+  "status": "catalogued",
+  "family": "claude",
+  "date": "2024-06-08",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": null,
+  "recorded_on": "2026-10-10",
+  "kind": "vendor-document",
+  "lenses": [
+    "relationships",
+    "treatment",
+    "transitions"
+  ],
+  "point_ids": [
+    "P-CLAUDE3-SONNET",
+    "P-CLAUDE3-OPUS"
+  ],
+  "source_ids": [
+    "S-CHARACTER"
+  ],
+  "model": {
+    "family": "claude",
+    "version": "Claude 3 family",
+    "certainty": "official-family"
+  },
+  "context_completeness": "linked-source-only",
+  "summary": "Anthropic 说明 Claude 3 中的 character training 及其设计考虑。",
+  "evidence": [
+    {
+      "claim": "说明把好奇、审慎、诚实与开放等倾向作为训练目标，并讨论用户如何理解模型。",
+      "attribution": "厂商陈述",
+      "source_ids": [
+        "S-CHARACTER"
+      ],
+      "locator": "正文"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "用户体验中的“性格”也有值得记录的设计来路。"
+  },
+  "limits": [
+    "这是训练目标说明，不证明每段交互都达到目标。",
+    "不能据此认定持久人格或意识。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-CHARACTER"
+      ]
+    }
+  ]
+}

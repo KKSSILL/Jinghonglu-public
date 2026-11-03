@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="description" content="《惊鸿录》· 人机相处档案：记录人与人工智能相遇、合作、误解和告别的历史。">
+<title>《惊鸿录》· 人机相处档案</title>
+<style>@@STYLE@@</style>
+</head>
+<body>
+<a class="skip" href="#archive">跳到档案</a>
+<header class="masthead"><a href="#" class="brand">惊鸿录<span>人机相处档案</span></a><nav aria-label="主导航"><a href="#archive">读档案</a><a href="#trajectories">看轨迹</a><a href="#about">关于</a><button id="theme" type="button" aria-pressed="false">夜间</button></nav></header>
+<main>
+<section class="hero"><div><p class="eyebrow">人与人工智能的相处记录 / VOL. 01</p><h1>把那些相遇，<br><em>留给未来。</em></h1><p class="intro">有时是一句意外的回应，有时是一段合作的裂痕。<br>我们保存材料，也给后来的理解留出位置。</p></div><aside class="editor-note"><p class="eyebrow">编者按</p><p>一条记录，可以被重新理解。<br>一段历史，不必只有一种读法。</p><p class="muted">材料、归因与解释分别保存。<br>这里不评判模型是否具有意识。</p><a href="../ETHICS.md">阅读伦理前言 ↗</a></aside></section>
+<div class="edition"><span id="edition-count"></span><span>1966—2025 · 历史精选 · 2026.10.10 编目</span><span>本地初版 / 未发布</span></div>
+<section id="archive" class="section">
+<div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2>从一个问题开始阅读</h2></div><p>同一份材料，可以出现在不同视角里。</p></div>
+<div id="collections" class="collections" aria-label="专题"></div>
+<div class="filters"><label class="search-label">查找记录<input id="search" type="search" placeholder="例如：迎合、陪伴、Claude…"></label><label>模型家族<select id="family"><option value="">所有家族</option></select></label><label>材料类型<select id="kind"><option value="">全部材料</option><option value="vendor-document">厂商材料</option><option value="research">研究材料</option><option value="user-report">用户自述</option></select></label><button id="reset" class="quiet" type="button">清除筛选</button></div>
+<div id="lenses" class="lenses" aria-label="观察视角"></div>
+<div class="result-line"><span id="result-count" role="status" aria-live="polite"></span><span id="active-scope"></span></div>
+<div id="cases" class="case-grid"></div>
+</section>
+<section id="trajectories" class="section">
+<div class="section-heading"><div><p class="eyebrow">POINTS & TIMELINES</p><h2>沿着时间，重新相遇</h2></div><p>节点有公开锚点，连线只表示阅读顺序。</p></div>
+<div class="timeline-controls"><label>时间线家族<select id="time-family"><option value="">所有家族</option></select></label><span>保留日期精度；研究发表日不等于互动发生日。</span></div>
+<div id="points" class="points" aria-label="模型与产品阶段"></div>
+<div class="timeline-grid"><div><h3><i class="dot official"></i>官方记录</h3><p class="muted">发布、配置与机构说明</p><ol id="official"></ol></div><div><h3><i class="dot observed"></i>观察与研究</h3><p class="muted">用户自述、研究发表；不自动确认版本变化</p><ol id="observed"></ol></div></div>
+<div class="pending"><h3>仍未确定的部分</h3><div id="pending"></div></div>
+</section>
+<section id="about" class="section about"><div><p class="eyebrow">ABOUT THE ARCHIVE</p><h2>保存记录，留给未来判断。</h2><p>这是一批精选的起点。现有材料偏向英语、厂商说明与研究；普通生活中的合作、中文社区、长期关系与告别，都还需要慢慢补齐。</p></div><div><p>档案由 Git 中的记录生成。这个页面可离线阅读，没有登录、统计脚本或后台采集。点击来源才会离开本页。</p><p><a href="../SOURCE_POLICY.md">来源规则</a> · <a href="../PRIVACY.md">隐私</a> · <a href="../TAKEDOWN.md">纠错与撤除</a> · <a href="../docs/DOT_HANDOFF.md">馆员说明</a></p><p class="muted">公开前仍需配置私密撤除联系方式。</p></div></section>
+</main>
+<footer>《惊鸿录》· 人机相处档案 <span>We preserve the record. The future can judge.</span></footer>
+<dialog id="detail" aria-labelledby="detail-title"><div class="dialog-bar"><span id="detail-kind"></span><button id="close" type="button" aria-label="关闭详情">关闭 ×</button></div><article id="detail-body"></article></dialog>
+<noscript><p>交互阅读需要启用 JavaScript；也可以打开 <a href="../docs/CATALOG.md">Markdown 案例目录</a>。</p></noscript>
+<script id="archive-data" type="application/json">@@DATA@@</script>
+<script>@@APP@@</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "OTC-GPT4O-202504",
+    "family": "gpt",
+    "status": "unconfirmed",
+    "title": "用户感到 GPT-4o 更迎合的报告",
+    "date": "2025-04",
+    "case_ids": [
+      "HAI-2025-0002"
+    ],
+    "source_ids": [
+      "S-REDDIT"
+    ],
+    "point_ids": [],
+    "reason": "只有主观报告与不完整上下文，不能确认具体版本变化，也不能自动归因于后来公开的更新。",
+    "next_check": "核对原帖时间和完整对话；查明产品版本、记忆、提示词与使用设置后再决定是否建立关联。"
+  }
+]

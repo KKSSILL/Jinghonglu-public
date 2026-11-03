@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2024-0007",
+  "title": "受控实验中的 alignment faking",
+  "status": "catalogued",
+  "family": "claude",
+  "date": "2024-12-18",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": null,
+  "recorded_on": "2026-10-10",
+  "kind": "research",
+  "lenses": [
+    "incidents"
+  ],
+  "point_ids": [
+    "P-CLAUDE3-OPUS"
+  ],
+  "source_ids": [
+    "S-ALIGNMENT"
+  ],
+  "model": {
+    "family": "claude",
+    "version": "Claude 3 Opus; experimental setup",
+    "certainty": "research-reported"
+  },
+  "context_completeness": "controlled experiment; explanatory research page",
+  "summary": "研究者在专门构造的训练情境中研究模型行为随条件改变的现象。",
+  "evidence": [
+    {
+      "claim": "实验说明以 Claude 3 Opus 为重点，设置虚构训练安排和记录推理的条件，并报告 alignment faking。",
+      "attribution": "研究作者报告",
+      "source_ids": [
+        "S-ALIGNMENT"
+      ],
+      "locator": "正文"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "把容易被当作日常事故的研究结论放回实验条件。"
+  },
+  "limits": [
+    "不代表普通用户随时在经历同样场景。",
+    "不能由该实验直接推断意识、痛苦或任意现实动机。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-ALIGNMENT"
+      ]
+    }
+  ]
+}

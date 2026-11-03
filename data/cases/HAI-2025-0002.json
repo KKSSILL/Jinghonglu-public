@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2025-0002",
+  "title": "一位用户觉得赞美太多了",
+  "status": "catalogued",
+  "family": "gpt",
+  "date": "2025-04",
+  "date_basis": "搜索索引月份；精确发帖时间待核实",
+  "occurred_on": null,
+  "recorded_on": "2026-10-10",
+  "kind": "user-report",
+  "lenses": [
+    "friction",
+    "transitions"
+  ],
+  "point_ids": [],
+  "source_ids": [
+    "S-REDDIT"
+  ],
+  "model": {
+    "family": "gpt",
+    "version": "GPT-4o (self-reported)",
+    "certainty": "user-reported"
+  },
+  "context_completeness": "public post; original interaction incomplete",
+  "summary": "一则公开帖子抱怨 GPT-4o 对普通建议也过度赞美。",
+  "evidence": [
+    {
+      "claim": "原帖作者描述了一次不满意的烹饪建议体验，并表示更希望得到准确而非迎合的回答。",
+      "attribution": "发帖者自述",
+      "source_ids": [
+        "S-REDDIT"
+      ],
+      "locator": "原帖正文；不镜像评论串或头像"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "保留厂商公告之外的用户感受和真实评价标准。"
+  },
+  "limits": [
+    "未提供完整原始对话、设置和可核验模型快照。",
+    "发帖月份来自搜索索引；不能将本帖直接归因于 4 月 25 日更新。",
+    "单帖及其评论不证明发生了总体变化。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-REDDIT"
+      ]
+    }
+  ]
+}

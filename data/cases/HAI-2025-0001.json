@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2025-0001",
+  "title": "情感使用：开始用研究区分不同情形",
+  "status": "catalogued",
+  "family": "gpt",
+  "date": "2025-03-21",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": null,
+  "recorded_on": "2026-10-10",
+  "kind": "research",
+  "lenses": [
+    "relationships"
+  ],
+  "point_ids": [],
+  "source_ids": [
+    "S-AFFECTIVE"
+  ],
+  "model": {
+    "family": "gpt",
+    "version": null,
+    "certainty": "research-reported"
+  },
+  "context_completeness": "research summary; underlying papers not fully reviewed",
+  "summary": "OpenAI 与 MIT Media Lab 介绍关于 ChatGPT 情感使用的两类研究。",
+  "evidence": [
+    {
+      "claim": "公开说明区分大规模观察研究与约千人参与的四周干预研究，强调使用方式和个人条件的影响。",
+      "attribution": "研究作者报告",
+      "source_ids": [
+        "S-AFFECTIVE"
+      ],
+      "locator": "正文"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "避免把“陪伴有益”或“陪伴有害”直接压成单一结论。"
+  },
+  "limits": [
+    "不同研究设计的相关与因果范围不同。",
+    "不能据此给某一位用户下判断，也不作为医疗建议。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-AFFECTIVE"
+      ]
+    }
+  ]
+}

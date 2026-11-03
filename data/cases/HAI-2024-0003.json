@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2024-0003",
+  "title": "语音、视觉与对话的同台展示",
+  "status": "catalogued",
+  "family": "gpt",
+  "date": "2024-05-13",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": "2024-05-13",
+  "recorded_on": "2026-10-10",
+  "kind": "vendor-document",
+  "lenses": [
+    "sparks",
+    "transitions"
+  ],
+  "point_ids": [
+    "P-4O-20240513"
+  ],
+  "source_ids": [
+    "S-4O-LAUNCH"
+  ],
+  "model": {
+    "family": "gpt",
+    "version": "GPT-4o",
+    "certainty": "official-family"
+  },
+  "context_completeness": "linked-source-only",
+  "summary": "GPT-4o 发布页把实时多模态对话放在演示中心。",
+  "evidence": [
+    {
+      "claim": "页面列出语音、视觉与文字交互示例；本次只核对页面说明，未逐段播放演示视频。",
+      "attribution": "厂商陈述",
+      "source_ids": [
+        "S-4O-LAUNCH"
+      ],
+      "locator": "正文"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "记录厂商如何呈现更自然的相处方式。"
+  },
+  "limits": [
+    "精选演示不是独立用户观察。",
+    "发布演示不表示全部用户当日获得全部能力。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-4O-LAUNCH"
+      ]
+    }
+  ]
+}

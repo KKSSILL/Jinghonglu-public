@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 撤下或隐私请求
+    url: https://github.com/KKSSILL/jinghonglu-public/security/advisories/new
+    about: 涉及身份、隐私或版权的请求，请通过 Private Security Advisory 私密提交，不要公开发帖。

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "LEAD-REPLIKA-RESPONSE",
+    "title": "Replika 学生问卷研究的后续 Matters Arising",
+    "url": "https://www.nature.com/articles/s44184-024-00083-w",
+    "reported_publication": "2025-11-17",
+    "checked_on": "2026-10-10",
+    "state": "needs-full-read",
+    "reason": "找到作者批评的搜索摘录，但正文/PDF 读取遇到 Nature 认证重定向；不能声称已完整审阅。",
+    "related_case_ids": [
+      "HAI-2024-0001"
+    ],
+    "next_action": "取得可公开读取的完整原文及原作者回应，核对争点后追加解释，不覆盖原论文记录。"
+  }
+]

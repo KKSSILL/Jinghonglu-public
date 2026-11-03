@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "HAI-YYYY-NNNN",
+  "title": "简洁描述一件事情",
+  "status": "draft",
+  "family": "gpt",
+  "date": "YYYY-MM-DD",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": null,
+  "recorded_on": "YYYY-MM-DD",
+  "kind": "vendor-document",
+  "lenses": [
+    "friction"
+  ],
+  "point_ids": [],
+  "source_ids": [
+    "S-NEW"
+  ],
+  "model": {
+    "family": "gpt",
+    "version": null,
+    "certainty": "unknown"
+  },
+  "context_completeness": "linked-source-only",
+  "summary": "原创简述",
+  "evidence": [
+    {
+      "claim": "可以从原文核对的陈述",
+      "attribution": "谁的陈述",
+      "source_ids": [
+        "S-NEW"
+      ],
+      "locator": "段落或页码"
+    }
+  ],
+  "interpretation": {
+    "author": "馆员署名",
+    "text": "为什么保存，以及研究问题"
+  },
+  "limits": [
+    "哪些结论不受材料支持"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "YYYY-MM-DD",
+      "author": "馆员署名",
+      "change": "初始编目",
+      "source_ids": [
+        "S-NEW"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "name": "惊鸿录",
+  "subtitle": "人机相处档案",
+  "english_name": "Human–AI Archive",
+  "edition": "0.1.0",
+  "curated_on": "2026-10-10",
+  "tagline": "我们保存记录，留给未来判断。",
+  "coverage": "1966—2025 历史精选；不宣称完整覆盖或最新。",
+  "families": [
+    {
+      "id": "eliza",
+      "label": "ELIZA"
+    },
+    {
+      "id": "tay",
+      "label": "Tay"
+    },
+    {
+      "id": "gpt",
+      "label": "GPT / ChatGPT"
+    },
+    {
+      "id": "bing",
+      "label": "Bing Chat"
+    },
+    {
+      "id": "replika",
+      "label": "Replika"
+    },
+    {
+      "id": "gemini",
+      "label": "Gemini"
+    },
+    {
+      "id": "claude",
+      "label": "Claude"
+    }
+  ],
+  "lenses": [
+    {
+      "id": "sparks",
+      "label": "灵光",
+      "description": "出乎意料的回应、幽默与合作可能"
+    },
+    {
+      "id": "friction",
+      "label": "摩擦",
+      "description": "误解、迎合、失准与协作中断"
+    },
+    {
+      "id": "relationships",
+      "label": "关系",
+      "description": "陪伴、信任、依恋和长期使用"
+    },
+    {
+      "id": "transitions",
+      "label": "变迁",
+      "description": "更新、回滚、限制与体感变化"
+    },
+    {
+      "id": "treatment",
+      "label": "对待",
+      "description": "人如何对待系统，以及系统如何回应"
+    },
+    {
+      "id": "incidents",
+      "label": "事件",
+      "description": "具有边界或安全意义的案例，保留情境"
+    }
+  ],
+  "collections": [
+    {
+      "id": "personality-change",
+      "title": "当人们说：它变了",
+      "description": "把公开更新、用户感受与后来解释放在一起读，不把时间接近当作同一原因。",
+      "case_ids": [
+        "HAI-2023-0001",
+        "HAI-2024-0005",
+        "HAI-2025-0002",
+        "HAI-2025-0003"
+      ]
+    },
+    {
+      "id": "company-and-boundaries",
+      "title": "陪伴与边界",
+      "description": "保存体验与研究的差别，也保存仍没有答案的问题。",
+      "case_ids": [
+        "HAI-2024-0001",
+        "HAI-2024-0006",
+        "HAI-2025-0001",
+        "HAI-2025-0004"
+      ]
+    },
+    {
+      "id": "unexpected-replies",
+      "title": "一句话带来的意外",
+      "description": "从规则脚本到人工干预的研究变体；不是能力或意识的同一把尺。",
+      "case_ids": [
+        "HAI-1966-0001",
+        "HAI-2022-0001",
+        "HAI-2024-0003",
+        "HAI-2024-0004"
+      ]
+    }
+  ],
+  "publication": {
+    "state": "public",
+    "private_contact": "https://github.com/KKSSILL/jinghonglu-public/security/advisories/new",
+    "remote_url": "https://github.com/KKSSILL/jinghonglu-public"
+  },
+  "automation": {
+    "enabled": false,
+    "role": "archivist",
+    "note": "未启用计划任务；见 docs/DOT_HANDOFF.md。"
+  }
+}

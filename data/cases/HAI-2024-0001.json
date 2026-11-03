@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2024-0001",
+  "title": "学生如何描述与 Replika 的关系",
+  "status": "catalogued",
+  "family": "replika",
+  "date": "2024-01-22",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": null,
+  "recorded_on": "2026-10-10",
+  "kind": "research",
+  "lenses": [
+    "relationships"
+  ],
+  "point_ids": [],
+  "source_ids": [
+    "S-REPLIKA"
+  ],
+  "model": {
+    "family": "replika",
+    "version": null,
+    "certainty": "research-reported"
+  },
+  "context_completeness": "aggregate-research; no individual transcript",
+  "summary": "一项问卷研究整理了学生用户对陪伴、支持和使用方式的自述。",
+  "evidence": [
+    {
+      "claim": "作者调查了 1006 名 Replika 学生用户，讨论其孤独感、社会支持和使用体验。",
+      "attribution": "研究作者报告",
+      "source_ids": [
+        "S-REPLIKA"
+      ],
+      "locator": "摘要、方法、讨论；DOI 10.1038/s44184-023-00047-6"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "聚合研究可为私人体验提供语境，但不能代替个体故事。"
+  },
+  "limits": [
+    "自选用户样本和自述不证明临床疗效或因果。",
+    "不以论文发表日指认用户使用的模型快照。",
+    "已发现后续学术批评线索，全文读取受限，见 leads；需补读后再评价争点。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-REPLIKA"
+      ]
+    }
+  ]
+}

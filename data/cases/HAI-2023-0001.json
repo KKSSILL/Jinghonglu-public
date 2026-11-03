@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "HAI-2023-0001",
+  "title": "一段对话被限制为五轮",
+  "status": "catalogued",
+  "family": "bing",
+  "date": "2023-02-17",
+  "date_basis": "来源发表日，非互动发生日",
+  "occurred_on": "2023-02-17",
+  "recorded_on": "2026-10-10",
+  "kind": "vendor-document",
+  "lenses": [
+    "friction",
+    "transitions"
+  ],
+  "point_ids": [
+    "P-BING-20230217"
+  ],
+  "source_ids": [
+    "S-BING"
+  ],
+  "model": {
+    "family": "bing",
+    "version": null,
+    "certainty": "official-family"
+  },
+  "context_completeness": "linked-source-only",
+  "summary": "Bing 团队宣布限制单段对话长度，并要求开始新话题时清除上下文。",
+  "evidence": [
+    {
+      "claim": "公告称长对话会使模型困惑，当日起上限为每段 5 轮、每天 50 轮。",
+      "attribution": "厂商陈述",
+      "source_ids": [
+        "S-BING"
+      ],
+      "locator": "正文"
+    }
+  ],
+  "interpretation": {
+    "author": "《惊鸿录》编辑记录（AI 辅助整理）",
+    "text": "产品规则的变化本身会改变人们相处的连续性。"
+  },
+  "limits": [
+    "不据此证实网上每段 Bing 截图。",
+    "这不是底层权重更换或情绪变化的证据。"
+  ],
+  "consciousness": "not-assessed",
+  "welfare": "not-assessed",
+  "revisions": [
+    {
+      "recorded_on": "2026-10-10",
+      "author": "《惊鸿录》初始编目",
+      "change": "依据公开来源建立初始记录；保留证据范围与未确认项。",
+      "source_ids": [
+        "S-BING"
+      ]
+    }
+  ]
+}
