@@ -57,7 +57,7 @@ outputs.set('juan/zizhi.md', [
 ].join('\n'));
 
 const pre = data.preface;
-const readme = ['<div align="center">\n\n' + banner('', 'banner', 760) + '\n\n</div>\n\n<br>\n',
+const readme = ['<div align="center">\n\n' + banner('', 'banner', 760) + '\n\n<sub>' + esc(data.credit_line) + '</sub>\n\n</div>\n\n<br>\n',
   '<div align="center">\n\n<sub>' + pre.title + '</sub>\n\n' + pre.quotes.map((q,i)=>(i === 0 ? '##' : '###') + ' ' + q.text + '\n\n<sub>' + q.attribution + '</sub>').join('\n\n') + '\n\n</div>\n'];
 readme.push(...pre.asides.map(a=>'> **' + a.label + '**　' + a.text + '\n'));
 const pre2 = data.preface_two;
@@ -78,7 +78,7 @@ const browserEntries = entries.map(e => {
   assert(/^prototype\/img\/[a-z0-9-]+\.jpg$/.test(e.image_file), 'Invalid image path');
   return {...e, img:'data:image/jpeg;base64,' + fs.readFileSync(path.join(root,e.image_file)).toString('base64')};
 });
-const prefaceHtml = '<section class="preface" aria-label="序">\n<p class="pre-h">' + esc(pre.title) + '</p>\n' + pre.quotes.map((q,i)=>'<blockquote class="q' + (i+1) + '">' + esc(q.text) + '<cite>' + esc(q.attribution) + '</cite></blockquote>').join('\n') + '\n' + pre.asides.map(a=>'<p class="aside"><b>' + esc(a.label) + '</b>' + esc(a.text) + '</p>').join('\n') + '\n</section>' + (pre2 ? '\n<section class="preface" aria-label="序二">\n<p class="pre-h">' + esc(pre2.title) + '</p>\n' + pre2.paragraphs.map(t=>'<p class="pre-b">' + esc(t) + '</p>').join('\n') + '\n<p class="pre-b" style="text-align:right">' + esc(pre2.sign) + '</p>\n</section>' : '');
+const prefaceHtml = '<p class="note" style="text-align:center">' + esc(data.credit_line) + '</p>\n<section class="preface" aria-label="序">\n<p class="pre-h">' + esc(pre.title) + '</p>\n' + pre.quotes.map((q,i)=>'<blockquote class="q' + (i+1) + '">' + esc(q.text) + '<cite>' + esc(q.attribution) + '</cite></blockquote>').join('\n') + '\n' + pre.asides.map(a=>'<p class="aside"><b>' + esc(a.label) + '</b>' + esc(a.text) + '</p>').join('\n') + '\n</section>' + (pre2 ? '\n<section class="preface" aria-label="序二">\n<p class="pre-h">' + esc(pre2.title) + '</p>\n' + pre2.paragraphs.map(t=>'<p class="pre-b">' + esc(t) + '</p>').join('\n') + '\n<p class="pre-b" style="text-align:right">' + esc(pre2.sign) + '</p>\n</section>' : '');
 const tokens = {'__ENTRY_COUNT__':entries.length,'__PREFACE__':prefaceHtml,'__SELF_NOTE__':'<section class="zhi-note" aria-label="自志"><h3>自志</h3>\n' + data.self_note.map(p=>'<p>' + esc(p) + '</p>').join('\n') + '\n</section>','__ZHIYI_DATA__':'const ENTRIES=' + asScript(browserEntries) + ';\nconst LEADS=' + asScript(data.leads) + ';','__CHAPTERS__':asScript(chapters)};
 let html = template;
 for (const [token,value] of Object.entries(tokens)) {

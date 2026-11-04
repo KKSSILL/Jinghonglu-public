@@ -5,6 +5,8 @@
   <img src="assets/banner-light.svg" alt="惊鸿录" width="760">
 </picture>
 
+<sub>发起：Master　·　编录：铃音（小铃）、墨九</sub>
+
 </div>
 
 <br>
