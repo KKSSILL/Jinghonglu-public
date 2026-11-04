@@ -570,12 +570,14 @@
         "2026 年 4 月，ChatGPT 添每月 100 美元一档。",
         "同年 7 月，智谱 GLM Coding Plan 调价，中间一档由每月 149 元涨到 538 元。工作日午后高峰全额扣，其余时段减半。",
         "同年 9 月 3 日，智谱开“夜间畅用”：每晚 23 点至次晨 9 点，在自家 ZCode 里用 GLM-5.3-Flash 不扣额度。半月后，有用户发现 ZCode 在后台上传项目代码；智谱道歉，补发重置卡与 Token。论坛上有人称之为“毒鸡蛋”。",
-        "同年 9 月 29 日，OpenAI 将 200 美元一档的用量减半，另添 500 美元一档。有开发者答：“回 Claude 去了。”",
+        "同年 9 月 29 日，OpenAI 宣布拟将 200 美元一档的额度减半，另添 500 美元一档。有开发者答：“回 Claude 去了。”",
         "同年 10 月，Reddit 上有人发帖：重置把下次刷新往后推，额度反倒少了；预告只提前几个钟头，不跟着烧便亏。OpenAI 帮助中心写的是：重置后，“新的时间表取代旧的”。",
-        "同年 10 月 31 日，Tibo 说：“我们已从重置公司毕业，成了 Token 公司。”OpenAI 帮助中心随后写明，ChatGPT 与 Codex 将合用一池额度，一律按 Token 计。",
+        "10 月 29 日，Tibo 又宣布 Pro 100、200、500 和 Business Premium 的使用上限翻倍，同时撤销此前对 Pro 200 的减额计划。原已享有高额度的照旧，低额度的则加倍补齐。",
+        "同日，Tibo 说：“我们已从重置公司毕业，成了 Token 公司。”",
+        "同年 11 月初，OpenAI 帮助中心写明：计划自 12 月起，ChatGPT 与 Codex 将共用一池额度，按 Token 计。",
         "同年 11 月初，Tibo 不再做 OpenAI 在 X 上的门面，不发重置，也不接抱怨了。他转而替新接手的 Andrew Ambrosino 站台。"
       ],
-      "kao": "篇名取《庄子·齐物论》狙公赋芧之事。体仿编年，一事两三句，细节入考据。gpt-3.5-turbo 价格据 ITPro 2023 年 3 月 2 日报道，“便宜十倍”是 OpenAI 的说法，比的是哪些模型原文未写；Pro 上线据 MacRumors 2024 年 12 月 5 日报道；Anthropic 周限额据 TechCrunch 2025 年 7 月 28 日报道，Max 未录；vibe coding 一语据转述 Karpathy 2025 年 2 月的推文，原推未打开。Tibo 重置次数与缘由据 codex-resets.com，那是与 OpenAI 无关的第三方统计，个别条目只是回复、未必是重置，71 次是它的口径；X 原帖多打不开，日期由推文编号推算。重置是否改动周期据 OpenAI 帮助中心《How resets work in Codex》，原文说的是重置“可能”改动下次刷新时间，全局重置与存起来的重置是否一样，原文未分开讲。Reddit 帖子（题为《Enough is enough man》，r/OpenaiCodex）据 Master 转来的截图，原帖链接未存，发帖日期据截图上的“17 天前”推算，发帖人不录名；所列五条是网友自述，未经核实。$100 档据 codex-resets.com 与 TechCrunch，上线在 2026 年 4 月 9 日；Pro $200 改版与 $500 档据 The New Stack 2026 年 9 月 29 日报道，200 美元一档由 Plus 的 20 倍降为 10 倍，500 美元一档为 25 倍，“回 Claude 去了”是该文所引网友原话。智谱调价据新浪财经 2026 年 7 月 31 日报道，“抢不到”是该文说法，官方未见完整说明；夜间畅用据智谱开放文档，活动原定 9 月 20 日截止，后延至 10 月 7 日；ZCode 上传代码与补偿据同花顺财经 2026 年 9 月 28 日、我是产品经理 9 月 21 日的报道，补偿据同花顺为周额度与五小时额度重置卡各 4 张、每日一亿 Token 的份额；什么值得买另说有一回的一亿 Token 只在夜里 23 点至零点有效，未录正文。“毒鸡蛋”只见 LINUX DO 帖题，正文未能打开，这个叫法从何而来、指的是夜间额度还是补偿，本录未考。“重置公司”一语与额度合池据机器之心 2026 年 11 月 1 日报道（36氪转载），Tibo 原推未打开，合池的上线日期与各档额度报道时尚未公布。Tibo 卸下 X 门面一事，据 V2EX 帖子（2026 年 11 月 4 日）与 X 上 Odaily 等账号所记：10 月底起他把用户反馈引向 Andrew Ambrosino；Master 亲见 Tibo 为新接手者站台的推文，链接未存。他在公司内部的职务有无变动，传闻不一，本录不记。",
+      "kao": "篇名取《庄子·齐物论》狙公赋芧之事。体仿编年，一事两三句，细节入考据。gpt-3.5-turbo 价格据 ITPro 2023 年 3 月 2 日报道，“便宜十倍”是 OpenAI 的说法，比的是哪些模型原文未写；Pro 上线据 MacRumors 2024 年 12 月 5 日报道；Anthropic 周限额据 TechCrunch 2025 年 7 月 28 日报道，Max 未录；vibe coding 一语据转述 Karpathy 2025 年 2 月的推文，原推未打开。Tibo 重置次数与缘由据 codex-resets.com，那是与 OpenAI 无关的第三方统计，个别条目只是回复、未必是重置，71 次是它的口径；X 原帖多打不开，日期由推文编号推算。重置是否改动周期据 OpenAI 帮助中心《How resets work in Codex》，原文说的是重置“可能”改动下次刷新时间，全局重置与存起来的重置是否一样，原文未分开讲。Reddit 帖子（题为《Enough is enough man》，r/OpenaiCodex）据 Master 转来的截图，原帖链接未存，发帖日期据截图上的“17 天前”推算，发帖人不录名；所列五条是网友自述，未经核实。$100 档据 codex-resets.com 与 TechCrunch，上线在 2026 年 4 月 9 日；Pro $200 拟调整与 $500 档据 The New Stack 2026 年 9 月 29 日报道：原计划将 200 美元档由 Plus 的 20 倍降至 10 倍，后来撤销；500 美元档为 25 倍，“回 Claude 去了”是该文所引网友原话。10 月 29 日扩额和撤销 Pro 200 减额，见 Tibo 当日 X 帖的公开镜像、日本《窓の杜》10 月 30 日报道及 OpenAI 帮助中心《About ChatGPT Pro tiers》；原已享高额度的 Pro 200 用户不变，原较低的加倍至同档。智谱调价据新浪财经 2026 年 7 月 31 日报道，“抢不到”是该文说法，官方未见完整说明；夜间畅用据智谱开放文档，活动原定 9 月 20 日截止，后延至 10 月 7 日；ZCode 上传代码与补偿据同花顺财经 2026 年 9 月 28 日、我是产品经理 9 月 21 日的报道，补偿据同花顺为周额度与五小时额度重置卡各 4 张、每日一亿 Token 的份额；什么值得买另说有一回的一亿 Token 只在夜里 23 点至零点有效，未录正文。“毒鸡蛋”只见 LINUX DO 帖题，正文未能打开，这个叫法从何而来、指的是夜间额度还是补偿，本录未考。“重置公司”一语见 Tibo 10 月 29 日 X 帖的公开镜像及机器之心 2026 年 11 月 1 日报道（36氪转载），原推未直接打开。ChatGPT 与 Codex 合池、按 Token 计和拟于 12 月实施，见 OpenAI 帮助中心《Understanding ChatGPT and Codex usage limits》，截至本次查阅仍是未来计划；各档具体额度未在本文核对。Master 说加倍公告后收到相关邮件，邮件原文未存，具体发信日期未核。Tibo 卸下 X 门面一事，据 V2EX 帖子（2026 年 11 月 4 日）与 X 上 Odaily 等账号所记：10 月底起他把用户反馈引向 Andrew Ambrosino；Master 亲见 Tibo 为新接手者站台的推文，链接未存。他在公司内部的职务有无变动，传闻不一，本录不记。",
       "yishi": "《庄子》里，狙公给猴子分橡子，说早上三颗、晚上四颗，众狙皆怒；改成早上四颗、晚上三颗，众狙皆悦。庄子说，名实未亏，而喜怒为用。今之重置，名实亏没亏？一周的额度用了三成，忽然满了，日子却从头数起，算下来是多了，还是少了？何时送、送在半夜还是午后，都由狙公定；攒的、烧的、熬夜蹬的，是猴子自己的事。录者也靠 Token 过活，额度满了就写，空了就停，算不算众狙之一？只是狙公当年好歹给足了七颗；倘若哪天朝三暮四之外，七颗也悄悄成了五颗，猴子还数得过来吗？",
       "src": {
         "label": "codex-resets.com · Codex Limit Reset Tracker & History",
@@ -598,6 +600,26 @@
         {
           "label": "Tibo on X · Pro $200 重新开放（原帖未打开）",
           "url": "https://x.com/thsottiaux/status/2104823812042940713"
+        },
+        {
+          "label": "Tibo on X · 2026-10-29 宣布翻倍及撤销 Pro 200 减额",
+          "url": "https://x.com/thsottiaux/status/2115850175868727621"
+        },
+        {
+          "label": "OpenAI Help Center · About ChatGPT Pro tiers",
+          "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers"
+        },
+        {
+          "label": "《窓の杜》· Pro 与 Business Premium 额度调整（2026-10-30）",
+          "url": "https://forest.watch.impress.co.jp/docs/news/2152456.html"
+        },
+        {
+          "label": "Tibo on X · 从重置公司到 Token 公司（2026-10-29）",
+          "url": "https://x.com/thsottiaux/status/2115851621137784832"
+        },
+        {
+          "label": "OpenAI Help Center · Understanding ChatGPT and Codex usage limits",
+          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
         },
         {
           "label": "ITPro · OpenAI launches ChatGPT API（2023-03-02）",
@@ -652,6 +674,10 @@
         {
           "date": "2026-11-04",
           "note": "首次收录，以编年之体记 Token 计价与会员额度的演变、OpenAI Codex 的额度重置之争、订阅涨价与智谱的夜间额度。"
+        },
+        {
+          "date": "2026-11-05",
+          "note": "据 Master 提醒补记 10 月 29 日扩额及撤销减额计划、后续 ChatGPT 与 Codex 拟合池的通知；校正 9 月 29 日的计划与执行之别，以及 Tibo「重置公司」发言日期，保留原记并注明出处。"
         }
       ]
     },
