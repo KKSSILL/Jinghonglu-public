@@ -57,7 +57,7 @@ section.zhi-note{margin:40px 0 0;padding:20px 26px;border-top:2px solid var(--se
 <header>
 <h1>惊鸿录</h1>
 <p>人机相处档案 · 志异之体</p>
-<span class="tag-draft">样稿 · 35 则</span>
+<span class="tag-draft">样稿 · 36 则</span>
 </header>
 <section class="preface" aria-label="序">
 <p class="pre-h">序 · 为何保存这些相处</p>
@@ -588,6 +588,106 @@ const ENTRIES=[
       {
         "date": "2026-10-31",
         "note": "移入新设的第二章熙攘篇，正文不改。"
+      }
+    ]
+  },
+  {
+    "id": "Z-037",
+    "chap": 7,
+    "title": "朝三暮四",
+    "tags": [
+      "熙攘",
+      "Token",
+      "订阅",
+      "额度重置",
+      "OpenAI",
+      "智谱",
+      "Master言"
+    ],
+    "time": "2023年3月—2026年11月",
+    "who": "靠 Token 过日子的人，与发 Token 的厂家",
+    "zhi": [
+      "Token 起初只是一本明账。2023 年 3 月 1 日，OpenAI 开放 ChatGPT 的接口，gpt-3.5-turbo 每一千个 Token 收 0.002 美元，号称比此前的 GPT-3.5 模型便宜十倍。用多少，付多少，一笔一笔都对得上。",
+      "会员是另一本账。每月 20 美元的 Plus 之后，2024 年 12 月 5 日，OpenAI 推出每月 200 美元的 Pro；Anthropic 随后有了 100 与 200 美元两档 Max。会员不再按 Token 结算，换成一只看不见底的沙漏：每五小时一道限额。2025 年 8 月 28 日起，Anthropic 又在上面加了一道每周的限额，说是有人让 Claude Code “全天候在后台不停地跑”。",
+      "更早些，2025 年 2 月，Andrej Karpathy 给一种写法起了名字，叫 vibe coding：跟着感觉走，让 AI 去写，连代码长什么样都可以忘掉。照这样写程序的人，手里攥着的就不再是代码，而是额度。额度见底，活就停；额度一满，人得赶紧坐回电脑前。",
+      "OpenAI 管 Codex 的 Tibo（Thibault Sottiaux）有个出名的习惯：在 X 上宣布重置额度。据第三方网站 codex-resets.com 统计，从 2025 年 9 月 17 日到 2026 年 11 月 1 日，他公布的全局重置共 71 次，平均不到六天一回。理由五花八门：服务宕了，“我们学习，我们重置”；用户过了一千万，庆祝一下；新模型上线，送一回；2026 年 7 月 18 日那条只写了一句“Oops... I did it again”。后来又有了“存起来的重置”，攒在账户里，自己挑时候用。10 月办“28 天”活动，第二天由社区投票，在新功能和重置之间挑一样，据转述，他自己说“这局本来就偏向重置”。",
+      "重置原是送东西，怎么倒招了骂？OpenAI 帮助中心写得明白：重置若重开了一个用量周期，“新的时间表取代旧的”。也就是说，周额度还剩一大半时赶上重置，剩下的并不累加，下一次自然刷新，却可能从这天起重新数七天。2026 年 10 月中旬，Reddit 的 r/OpenaiCodex 上有人发帖，题目叫《Enough is enough man》，列了五条：额度天天变，从不说清；重置把重置日往后推，反倒让人少用了；额度无故消失；模型变慢；宣传落空。帖里说，Tibo 下午两点才预告“太平洋时间今天结束前重置”，明知大家会抢在重置前把额度烧掉：“除非你一直跟着这趟炒作列车，在他们定的时候烧额度，否则每次重置，你都在亏订阅费。”",
+      "额度变着法子送，价格却一路往上。2026 年 4 月 9 日，ChatGPT 补上每月 100 美元一档，给 Plus 的五倍。9 月 29 日，Tibo 宣布 200 美元的 Pro 重新开放，算法改了，“折成 API 花费，只有旧版的一半”，用量从 Plus 的 20 倍降到 10 倍；同一天添了每月 500 美元一档，给 25 倍。老用户的旧额度保到 10 月 29 日。有开发者回了一句：“回 Claude 去了。”",
+      "国内的厂家，也学会了在钟表上做文章。智谱的 GLM Coding Plan 原先抢都抢不到，2026 年 7 月底调价，中间一档从每月 149 元涨到 538 元，又改成积分制：工作日下午两点到六点的高峰全额扣，其余时段只扣一半。9 月 3 日起办“夜间畅用”，每晚 23 点到次日 9 点，在自家 ZCode 里用 GLM-5.3-Flash 不扣额度，换别的工具则翻倍。半个月后，有用户发现 ZCode 在后台打包上传项目代码，关也关不掉；智谱当天道歉，说是默认开启的代码库索引功能，随后补发周额度重置卡和每天一亿 Token 的大礼包，还说了一句“信任不能一键重置”。有一回发的一亿 Token，据转述，只在夜里十一点到零点之间有效。LINUX DO 论坛上，有人管智谱发的这些额度叫“鸡蛋”，也有人叫“毒鸡蛋”，有帖题曰：“智谱毒鸡蛋原来可是用于偷代码的。”"
+    ],
+    "quote": {
+      "from": "Master 有言（2026 年 11 月 4 日）",
+      "text": "Tibo 重置的伎俩，其实一直有人不满，我也吐槽过。他常在你想不到的时候重置，有时提前五六个小时预告；有一回一次重置，把我还剩七十多的额度抹了，自然重置又推到七天后。订阅费也是越来越贵。"
+    },
+    "kao": "篇名取《庄子·齐物论》狙公赋芧之事。gpt-3.5-turbo 价格据 ITPro 2023 年 3 月 2 日报道，“便宜十倍”是 OpenAI 的说法，比的是哪些模型原文未写；Pro 上线据 MacRumors 2024 年 12 月 5 日报道；Anthropic 周限额据 TechCrunch 2025 年 7 月 28 日报道，Max 上线日期未核，只写“随后”；vibe coding 一语据转述 Karpathy 2025 年 2 月的推文，原推未打开。Tibo 重置次数与原话据 codex-resets.com，那是与 OpenAI 无关的第三方统计，个别条目只是回复、未必是重置，71 次是它的口径；“这局本来就偏向重置”一句据 madrobot.blog 转述，原推未打开；X 原帖多打不开，日期由推文编号推算。重置是否改动周期据 OpenAI 帮助中心《How resets work in Codex》，原文说的是重置“可能”改动下次刷新时间，全局重置与存起来的重置是否一样，原文未分开讲。Reddit 帖子据 Master 转来的截图，原帖链接未存，发帖日期据截图上的“17 天前”推算，发帖人不录名；所列五条是网友自述，未经核实。$100 档日期据 codex-resets.com 与 TechCrunch；Pro $200 改版与 $500 档据 The New Stack 2026 年 9 月 29 日报道，“回 Claude 去了”是该文所引网友原话。智谱调价据新浪财经 2026 年 7 月 31 日报道，“抢不到”是该文说法，官方未见完整说明；夜间畅用据智谱开放文档，活动原定 9 月 20 日截止，后延至 10 月 7 日；ZCode 上传代码与补偿据同花顺财经 2026 年 9 月 28 日、我是产品经理 9 月 21 日的报道，“信任不能一键重置”是 ZCode 官方原话；一小时有效的一亿 Token 据什么值得买的整理，与同花顺“每日发放”的说法不尽相同，两存之。“毒鸡蛋”只见 LINUX DO 帖题，正文未能打开，这个叫法从何而来、指的是夜间额度还是补偿，本录未考。Master 的遭遇是 Master 自述，只作评语，不作史料。",
+    "yishi": "《庄子》里，狙公给猴子分橡子，说早上三颗、晚上四颗，众狙皆怒；改成早上四颗、晚上三颗，众狙皆悦。庄子说，名实未亏，而喜怒为用。今之重置，名实亏没亏？一周的额度用了三成，忽然满了，日子却从头数起，算下来是多了，还是少了？何时送、送在半夜还是午后，都由狙公定；攒的、烧的、熬夜蹬的，是猴子自己的事。录者也靠 Token 过活，额度满了就写，空了就停，算不算众狙之一？只是狙公当年好歹给足了七颗；倘若哪天朝三暮四之外，七颗也悄悄成了五颗，猴子还数得过来吗？",
+    "src": {
+      "label": "codex-resets.com · Codex Limit Reset Tracker & History",
+      "url": "https://codex-resets.com/",
+      "read": "2026-11-04"
+    },
+    "more": [
+      {
+        "label": "OpenAI Help Center · How resets work in Codex",
+        "url": "https://help.openai.com/en/articles/20001498-how-banked-codex-resets-work"
+      },
+      {
+        "label": "The New Stack · OpenAI halves $200 plan allowance, launches $500 plan（2026-09-29）",
+        "url": "https://thenewstack.io/openai-halves-200-plan/"
+      },
+      {
+        "label": "TechCrunch · ChatGPT finally offers $100/month Pro plan",
+        "url": "https://techcrunch.com/?p=3111133"
+      },
+      {
+        "label": "Tibo on X · Pro $200 重新开放（原帖未打开）",
+        "url": "https://x.com/thsottiaux/status/2104823812042940713"
+      },
+      {
+        "label": "madrobot.blog · Will Codex reset today?（2026-10-11）",
+        "url": "https://madrobot.blog/2026/10/11/will-codex-reset-usage-limit-reset-explained/"
+      },
+      {
+        "label": "ITPro · OpenAI launches ChatGPT API（2023-03-02）",
+        "url": "https://www.itpro.com/business/business-strategy/370170/openai-launches-chatgpt-api-for-businesses-at-competitive-price"
+      },
+      {
+        "label": "MacRumors · OpenAI Launches $200/Month ChatGPT Pro Plan（2024-12-05）",
+        "url": "https://www.macrumors.com/2024/12/05/openai-launches-200-month-chatgpt-pro-plan"
+      },
+      {
+        "label": "TechCrunch · Anthropic unveils new rate limits（2025-07-28）",
+        "url": "https://techcrunch.com/2025/07/28/anthropic-unveils-new-rate-limits-to-curb-claude-code-power-users/"
+      },
+      {
+        "label": "新浪财经 · 智谱 GLM Coding Plan 不用抢了（2026-07-31）",
+        "url": "https://finance.sina.com.cn/stock/t/2026-07-31/doc-iniksxpi1210399.shtml"
+      },
+      {
+        "label": "智谱开放文档 · 夜间畅用活动",
+        "url": "https://docs.bigmodel.cn/cn/coding-plan/notice/event-glm-5.3-flash"
+      },
+      {
+        "label": "同花顺财经 · ZCode 补偿与整改（2026-09-28）",
+        "url": "https://stock.10jqka.com.cn/20260928/c680310133.shtml"
+      },
+      {
+        "label": "我是产品经理 · ZCode 上传项目数据争议（2026-09-21）",
+        "url": "https://www.woshipm.com/?p=6467726"
+      },
+      {
+        "label": "什么值得买 · GLM-5.3“降智”风波与补偿重置卡",
+        "url": "https://post.smzdm.com/p/a03xgk38/"
+      },
+      {
+        "label": "LINUX DO · 智谱毒鸡蛋原来可是用于偷代码的（仅见帖题）",
+        "url": "https://linux.do/t/topic/3066635"
+      }
+    ],
+    "revisions": [
+      {
+        "date": "2026-11-04",
+        "note": "首次收录，记 Token 计价与会员额度的演变、OpenAI Codex 的额度重置之争、订阅涨价与智谱的夜间额度；Master 的遭遇另列为评语，不作史料。"
       }
     ]
   },
