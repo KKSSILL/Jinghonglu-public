@@ -76,6 +76,7 @@
 <tr><td>其一</td><td><a href="juan/z-035.md"><b>熙熙攘攘</b></a></td><td><sub>2025年2月—2026年7月</sub></td></tr>
 <tr><td>其二</td><td><a href="juan/z-036.md"><b>攘攘熙熙</b></a></td><td><sub>2025年2月—2026年7月</sub></td></tr>
 <tr><td>其三</td><td><a href="juan/z-037.md"><b>朝三暮四</b></a></td><td><sub>2023年3月—2026年11月</sub></td></tr>
+<tr><td>其四</td><td><a href="juan/z-038.md"><b>老黄振臂</b></a></td><td><sub>2026年7月—11月</sub></td></tr>
 </table>
 
 <table>
