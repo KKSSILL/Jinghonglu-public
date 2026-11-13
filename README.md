@@ -92,6 +92,7 @@
 <tr><td>其一</td><td><a href="juan/z-020.md"><b>编出来的判例</b></a></td><td><sub>2023年</sub></td></tr>
 <tr><td>其二</td><td><a href="juan/z-021.md"><b>客服许的诺，公司来还</b></a></td><td><sub>2024年2月</sub></td></tr>
 <tr><td>其三</td><td><a href="juan/z-022.md"><b>删库之后</b></a></td><td><sub>2025年7月</sub></td></tr>
+<tr><td>其四</td><td><a href="juan/z-039.md"><b>纯洁之树</b></a></td><td><sub>2024年11月—2026年3月</sub></td></tr>
 </table>
 
 <table>
